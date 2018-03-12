@@ -1,0 +1,38 @@
+$primary-bg-color: #fff;
+$primary-color: #000;
+$border-size: 2px;
+
+.circle {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+  background-color: $primary-bg-color;
+  color: $primary-color;
+  border: $border-size solid  $primary-color;
+  vertical-align: middle;
+  margin: 4px;
+  line-height: 70px;
+
+  text-align: center;
+
+  font-size: 16pt;
+  font-style: bold;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.nota {
+  display: inline-block;
+}
+.itxi {
+	background-color: $primary-bg-color;
+  color: $primary-color;
+}
+.ireki {
+	background-color: $primary-color;
+  color: $primary-bg-color;
+}
+.silence {
+	display: inline-block;
+	width: 35px;
+	border: 0px solid $primary-color;
+}
